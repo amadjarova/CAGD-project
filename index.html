@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bezier Curve and Hodograph</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="panel">
+      <h2>Bezier Curve</h2>
+      <canvas id="curveCanvas"></canvas>
+    </div>
+    <div class="panel">
+      <h2>Hodograph</h2>
+      <canvas id="hodographCanvas"></canvas>
+    </div>
+    <aside id="instructions">
+      <h2>Instructions</h2>
+      <ul>
+          <li><strong>Left Click:</strong> Add a new control point.</li>
+          <li><strong>Drag:</strong> Move existing control points.</li>
+          <li><strong>Right Click:</strong> Remove a control point.</li>
+      </ul>
+      <p>Observe the Bezier curve and its hodograph updating in real-time!</p>
+  </aside>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
